@@ -95,12 +95,14 @@
                 return className;
             },
             labelClass() {
-                return ["pc-label", TEXTALIGN[this.labelTextAlign - 1]];
+                return ["input-label", TEXTALIGN[this.labelTextAlign - 1]];
             },
             labelFor() {
                 return Math.random();
             }
-            
         }
     }
 </script>
+<style lang="stylus" scoped>
+    @import "../../styles/input.styl";
+</style>

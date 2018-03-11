@@ -6,10 +6,6 @@ $font-small=12px
 $font-medium = 14px
 $font-big = 16px
 
-theme(cls)
-    &.mark-{cls}
-        &:after
-            background-color: cls
 
 .pc-mark
     position: relative
@@ -39,6 +35,13 @@ theme(cls)
     &.mark-medium
         &:after
             font-size: 12px
-    theme("red")
-    theme("green")
-    theme("grey")
+    &.mark-red
+        &:after
+            background-color: red
+    &.mark-green
+        &:after
+            background-color: green
+    &.mark-grey
+        &:after
+            background-color: grey
+    

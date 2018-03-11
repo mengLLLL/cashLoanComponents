@@ -73,5 +73,5 @@
     }
 </script>
 <style lang="stylus">
-	@import "../../styles/mark.styl";
+	@import "../../styles/tabs.styl";
 </style>

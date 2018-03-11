@@ -48,3 +48,6 @@ const TEXTLENGTH = ["big", "medium", "small"];
         }
     }
 </script>
+<style lang="stylus" scoped>
+    @import "../../styles/caption.styl";
+</style>
