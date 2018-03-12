@@ -1,6 +1,6 @@
 <template>
 <div class="hello">
-	<button @click="showModal()">显示alert</button>
+	<button @click="this.modal1 = true">显示alert</button>
 	<Alert 
 		:content="content" 
 		:className="className"
@@ -24,7 +24,7 @@
 </template>
 
 <script> 
-import Alert from "../components/Alert";
+import Alert from "../components/Alert/Alert";
 export default {
 	name:"hello",
 	components: {
@@ -47,9 +47,6 @@ export default {
 		}
 	},
 	methods: {
-		showModal() {
-			this.modal1 = true
-		},
 		onHide() {
 		},
 		onCancel() {
